@@ -54,14 +54,46 @@
 		639F61631FAF610700B0E48D /* PokeFinder */ = {
 			isa = PBXGroup;
 			children = (
-				639F61641FAF610700B0E48D /* AppDelegate.swift */,
-				639F61661FAF610700B0E48D /* ViewController.swift */,
-				639F61681FAF610700B0E48D /* Main.storyboard */,
-				639F616B1FAF610700B0E48D /* Assets.xcassets */,
-				639F616D1FAF610700B0E48D /* LaunchScreen.storyboard */,
+				639F61791FAF614200B0E48D /* Resources */,
+				639F61781FAF612500B0E48D /* Controller */,
+				639F61771FAF611E00B0E48D /* View */,
+				639F61761FAF611000B0E48D /* Model */,
 				639F61701FAF610700B0E48D /* Info.plist */,
 			);
 			path = PokeFinder;
+			sourceTree = "<group>";
+		};
+		639F61761FAF611000B0E48D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				639F61641FAF610700B0E48D /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		639F61771FAF611E00B0E48D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				639F616D1FAF610700B0E48D /* LaunchScreen.storyboard */,
+				639F61681FAF610700B0E48D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		639F61781FAF612500B0E48D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				639F61661FAF610700B0E48D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		639F61791FAF614200B0E48D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				639F616B1FAF610700B0E48D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
